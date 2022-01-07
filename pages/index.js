@@ -99,7 +99,7 @@ export default function Home({
   );
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const res = await fetch("https://assessment-edvora.herokuapp.com/");
   const all_products = await res.json();
 
