@@ -1,0 +1,44 @@
+.card {
+  background-color: rgb(48, 48, 48);
+  min-width: 250px;
+  min-height: 150px;
+  max-width: 280px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.bold {
+  color: rgb(240, 240, 240);
+  font-size: 15px;
+  margin: 0px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.light {
+  margin: 0px;
+  font-size: 13px;
+  margin-bottom: 10px;
+  margin-top: 8px;
+  color: rgb(180, 180, 180);
+  padding-right: 5px;
+}
